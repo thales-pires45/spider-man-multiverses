@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man | Multiverse</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- Meu Script -->
+    <script src="../../assets/scripts/navigator-spiders.js"></script>
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="../../assets/css/internal.css">
+</head>
+
+<body>
+    <div class="spider-wrapper s-spiderman-03-03">
+
+        <!--  Coluna da esquerda com menu (Left Column with menu)  -->
+        <div class="spider-left-column">
+            <nav class="navigator">
+                <div class="navigator__icon">
+                    <a href="../../index.html">
+                        <img src="../../assets/images/icons/spiderman1.png" alt="spider-man-1">
+                    </a>
+                </div>
+                <ul>
+                    <li>
+                        <a onclick="selectButtonNavigator(this)" class="spider-controller"
+                            href="../../pages/tom-holland/spider-tom-1.html">01
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick="selectButtonNavigator(this)" class="spider-controller"
+                            href="../../pages/tom-holland/spider-tom-2.html"">02
+                        </a>
+                    </li>
+                    <li>
+                        <a onclick=" selectButtonNavigator(this)" class="spider-controller s-controller--active"
+                            href="../../pages/tom-holland/spider-tom-3.html">02
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- FIM - Coluna da esquerda com menu (Left Column with menu)  -->
+
+        <div class="spider-main-content ">
+            <div class="spider-main-content__top">
+
+                <div class="spider-logo">
+                    <img src="../../assets/images/spiderman-tom/movie-03/logo.png" alt="SpiderMan (2021)"
+                        title="SpiderMan (2021)">
+                </div>
+
+                <div class="spider-description">
+                    <div class="pills">
+                        <ul>
+                            <li>Ano: 2021</li>
+                            <li>Diretor: Jon Watts</li>
+                        </ul>
+                    </div>
+
+                    <div class="spider-description__text">
+                        <p><strong>Sinopse:</strong>&nbsp;Peter Parker tem a sua identidade secreta revelada e pede
+                            ajuda ao Doutor Estranho. Quando um feitiço para reverter o evento não sai como o esperado,
+                            o Homem-Aranha e seu companheiro dos Vingadores precisam enfrentar inimigos de todo o
+                            multiverso.</p>
+                    </div>
+                </div>
+
+                <div class="spider-links">
+                    <ul>
+                        <li>
+                            <a href="https://youtu.be/JfVOs4VSpmA?si=CnCPNuaJWhymKSgc" class="link-button"
+                                target="_blank">
+                                <span class="icon">
+                                    <div class="play-icon">&nbsp;</div>
+                                </span>
+                                <span class="label">
+                                    Assistir trailer
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <video autoplay loop muted>
+                    <source src="../../assets/videos/spiderman3-2021-trailer.mp4" type="video/mp4" />
+                </video>
+
+            </div>
+
+            <div class="spider-main-content__botton">
+                <div class="gallery">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-01.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-02.png"></a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="../../assets/images/spiderman-tom/movie-01/gallery/image-03.png">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>

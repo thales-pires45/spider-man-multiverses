@@ -32,6 +32,7 @@
     position: absolute;
 }
 
+/* Andrew Garfield */
 .s-spiderman-02-01 {
     content: "";
     background-image: url('../../images/spiderman-andrew/movie-01/background.png');
@@ -46,6 +47,40 @@
 .s-spiderman-02-02 {
     content: "";
     background-image: url('../../images/spiderman-andrew/movie-02/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* Tom Holland*/
+.s-spiderman-03-01 {
+    content: "";
+    background-image: url('../../images/spiderman-tom/movie-01/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.s-spiderman-03-02 {
+    content: "";
+    background-image: url('../../images/spiderman-tom/movie-02/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.s-spiderman-03-03 {
+    content: "";
+    background-image: url('../../images/spiderman-tom/movie-03/background.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

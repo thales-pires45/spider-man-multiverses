@@ -12,13 +12,6 @@
     flex-flow: row nowrap;
 }
 
-.spider-wrapper .spider-main-content__top video {
-    display: flex;
-    max-width: 35%;
-    flex-direction: row;
-    padding: 20px;
-}
-
 .spider-wrapper .spider-left-column {
     width: 100px;
     height: 100%;
@@ -70,7 +63,7 @@
 
 .spider-wrapper .spider-main-content__top .spider-links {
     padding: 20px;
- 
+    padding-left: 0;
 }
 
 .spider-wrapper .spider-main-content__top .spider-links ul {
@@ -78,11 +71,18 @@
     flex-direction: row;
 }
 
+.spider-wrapper .spider-main-content__top video {
+    display: flex;
+    max-width: 25%;
+    flex-direction: row;
+    margin-left: 0;
+}
+
 .spider-wrapper .spider-main-content__botton {
     height: 20vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-left: 20px;
+    margin-left: 0;
 }
 
