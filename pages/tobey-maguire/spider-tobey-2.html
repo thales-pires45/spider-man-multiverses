@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spider-Man | Multiverse</title>
+
+    <!-- Normalize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+
+    <!-- Meu Script -->
+    <script src="/assets/scripts/navigator-spiders.js"></script>
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="/assets/css/internal.css">
+</head>
+
+<body>
+    <div class="spider-wrapper">
+
+        <video autoplay loop muted>
+            <source src="../../assets/videos/spiderman2-2004-trailer.mp4" type="video/mp4" />
+        </video>
+
+        <!--  Coluna da esquerda com menu (Left Column with menu)  -->
+        <div class="spider-left-column">
+            <nav class="navigator">
+                <div class="navigator__icon">
+                    <a href="../../index.html">
+                        <img src="/assets/images/icons/spiderman1.png" alt="spider-man-1">
+                    </a>
+                </div>
+                <ul>
+                    <li><a onclick="selectButtonNavigator(this)" class="spider-controller"
+                            href="/pages/tobey-maguire/spider-tobey-1.html">01
+                        </a>
+                    </li>
+                    <li><a onclick="selectButtonNavigator(this)" class="spider-controller s-controller--active"
+                            href="#02">02
+                        </a>
+                    </li>
+                    <li><a onclick="selectButtonNavigator(this)" class="spider-controller"
+                            href="/pages/tobey-maguire/spider-tobey-3.html">03
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- FIM - Coluna da esquerda com menu (Left Column with menu)  -->
+
+        <div class="spider-main-content ">
+            <div class="spider-main-content__top">
+
+                <div class="spider-logo">
+                    <img src="/assets/images/spiderman-tobey/movie-02/logo.png" alt="SpiderMan (2002)"
+                        title="SpiderMan (2007)">
+                </div>
+
+                <div class="spider-description">
+                    <div class="pills">
+                        <ul>
+                            <li>Ano: 2005</li>
+                            <li>Diretor: Sam Raimi</li>
+                        </ul>
+                    </div>
+
+                    <div class="spider-description__text">
+                        <p><strong>Sinopse:</strong>&nbsp;Quando uma falha na experiência de fusão nuclear resulta em
+                            uma explosão que mata sua esposa, o Dr. Otto Octavius é transformado em Dr. Octopus, um
+                            ciborgue com tentáculos de metal. Doc Ock culpa o Homem-Aranha pelo acidente e quer
+                            vingança. Enquanto isso, o alter ego do herói, Peter Parker, perde seus poderes. Para
+                            complicar as coisas, o seu melhor amigo odeia o Homem-Aranha e sua amada fica noiva..</p>
+                    </div>
+                </div>
+
+                <div class="spider-links">
+                    <ul>
+                        <li>
+                            <a href="https://youtu.be/1s9Yln0YwCw?si=b7SJi_yMrhFCfbFK" class="link-button"
+                                target="_blank">
+                                <span class="icon">
+                                    <div class="play-icon">&nbsp;</div>
+                                </span>
+                                <span class="label">
+                                    Assistir trailer
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="spider-main-content__botton">
+                <div class="gallery">
+                    <ul>
+                        <li>
+                            <a data-fancybox
+                                href="/assets/images/spiderman-tobey/movie-02/gallery/image-01-full.jpg">
+                                <img src="/assets/images/spiderman-tobey/movie-02/gallery/image-01.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox
+                                href="../../assets/images/spiderman-tobey/movie-02/gallery/image-02-full.jpg">
+                                <img src="../../assets/images/spiderman-tobey/movie-02/gallery/image-02.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a data-fancybox
+                                href="../../assets/images/spiderman-tobey/movie-02/gallery/image-03-full.jpg">
+                                <img src="../../assets/images/spiderman-tobey/movie-02/gallery/image-03.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+</body>
+
+</html>
